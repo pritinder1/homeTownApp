@@ -12,6 +12,8 @@
 		EF3D99C91D22D3BE00BEEFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3D99C71D22D3BE00BEEFFC /* Main.storyboard */; };
 		EF3D99CB1D22D3BE00BEEFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3D99CA1D22D3BE00BEEFFC /* Assets.xcassets */; };
 		EF3D99CE1D22D3BE00BEEFFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3D99CC1D22D3BE00BEEFFC /* LaunchScreen.storyboard */; };
+		EF3D99D61D22D8A300BEEFFC /* buttonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D99D51D22D8A300BEEFFC /* buttonDefault.swift */; };
+		EF3D99DA1D22E4CA00BEEFFC /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D99D91D22E4CA00BEEFFC /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EF3D99CA1D22D3BE00BEEFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF3D99CD1D22D3BE00BEEFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF3D99CF1D22D3BE00BEEFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3D99D51D22D8A300BEEFFC /* buttonDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonDefault.swift; sourceTree = "<group>"; };
+		EF3D99D91D22E4CA00BEEFFC /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				EF3D99CA1D22D3BE00BEEFFC /* Assets.xcassets */,
 				EF3D99CC1D22D3BE00BEEFFC /* LaunchScreen.storyboard */,
 				EF3D99CF1D22D3BE00BEEFFC /* Info.plist */,
+				EF3D99D51D22D8A300BEEFFC /* buttonDefault.swift */,
+				EF3D99D91D22E4CA00BEEFFC /* DetailVC.swift */,
 			);
 			path = myHomeTownApp;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF3D99C61D22D3BE00BEEFFC /* ViewController.swift in Sources */,
+				EF3D99DA1D22E4CA00BEEFFC /* DetailVC.swift in Sources */,
 				EF3D99C41D22D3BE00BEEFFC /* AppDelegate.swift in Sources */,
+				EF3D99D61D22D8A300BEEFFC /* buttonDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = myHomeTownApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Myself.myHomeTownApp;
@@ -263,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = myHomeTownApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Myself.myHomeTownApp;
